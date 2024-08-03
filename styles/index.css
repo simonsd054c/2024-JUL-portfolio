@@ -7,6 +7,11 @@
 body {
     margin: 0;
     background-color: var(--primary-background);
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
 }
 
 header {
@@ -45,4 +50,29 @@ nav {
 nav a {
     text-decoration: none;
     color: #1C3C5C;
+}
+
+footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 16px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 32px;
+}
+
+.social-media a i {
+    color: #1C3C5C;
+    font-size: 20px;
+}
+
+.info {
+    color: #1C3C5C;
+}
+
+.info p {
+    margin: 5px 0;
 }
