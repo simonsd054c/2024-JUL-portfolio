@@ -58,4 +58,4 @@ Note: Header and Footer components have been made responsive depending upon scre
 Home page is the starting page of the website which consists of a cover image and some detail about the company.
 
 ### Services
-Services page shows different services provided by the company such as web development.
+Services page shows different services provided by the company such as web development. This page shows three services.
