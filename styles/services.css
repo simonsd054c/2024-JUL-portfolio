@@ -1,0 +1,21 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    background-color: var(--secondary-color);
+    margin: 24px;
+    border-radius: 16px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.service-image img {
+    width: 300px;
+}
+
+/* .service-title {
+    margin-left: 15px;
+} */
