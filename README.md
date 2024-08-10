@@ -62,3 +62,6 @@ Services page shows different services provided by the company such as web devel
 
 ### Contact
 The contact page allows user to contact the company by providing different information.
+
+### About
+The about page provides some information about the company to the users.
