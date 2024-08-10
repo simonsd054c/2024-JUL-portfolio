@@ -1,20 +1,21 @@
 :root {
     --primary-color: #ffb6b6;
+    --primary-hover: #f8c3c3;
     --secondary-color: #d9d9d9;
     --primary-background: #a5a5a5;
 }
 
 body {
     margin: 0;
+}
+
+.main-body {
+    background-color: var(--primary-background);
 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-between;
-}
-
-.main-body {
-    background-color: var(--primary-background);
 }
 
 header {
